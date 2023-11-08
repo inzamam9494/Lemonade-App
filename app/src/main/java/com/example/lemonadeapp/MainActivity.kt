@@ -47,12 +47,13 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
+
                     Column {
                         Row(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .background(Yellow40)
-                                .padding(20.dp),
+                                .padding(18.dp),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.Center
                         ) {
